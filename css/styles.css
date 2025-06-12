@@ -2,3 +2,23 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background-color: rgb(165, 133, 88);
+}
+
+.reenie-beanie-regular {
+  font-family: "Reenie Beanie", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(229, 184, 122);
+}
+
+.light-background {
+  background-color: rgb(229, 184, 122);
+}
