@@ -13,10 +13,62 @@ body {
   font-size: x-large;
 }
 
+h1 {
+  text-shadow: 10px 10px 5px black;
+}
+
 .container {
-  margin: 0;
+  margin: 0, auto;
   padding: 0;
   background-color: rgb(229, 184, 122);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.container-name {
+  margin: 0, auto;
+  margin-bottom: 25px;
+  padding: 0;
+  background-color: rgb(229, 184, 122);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.container-description {
+  margin: 0, auto;
+  margin-bottom: 25px;
+  padding: 5px;
+  background-color: rgb(229, 184, 122);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.logo {
+  border-radius: 50%;
+  margin: 25px;
+  padding: 25px;
+}
+
+section {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.container-row {
+  flex-direction: column;
+  margin: 25px;
+  padding: 30px;
+  background-color: rgb(229, 184, 122);
+  display: flex;
 }
 
 .light-background {
