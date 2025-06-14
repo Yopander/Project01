@@ -7,10 +7,17 @@ body {
 }
 
 .navbar {
-  background-color: rgb(229, 184, 122);
   display: flex;
-  justify-content: flex-end;
   padding: 10px;
+  width: 100%;
+  margin: 0, auto;
+  justify-content: flex-end;
+  border-radius: 10px;
+  padding: 0%;
+}
+
+.navbar-toggler-icon {
+  font-size: 24px;
 }
 
 .offcanvas {
@@ -45,6 +52,7 @@ h1 {
 
 .container-name {
   margin: 0, auto;
+  margin-top: 25px;
   margin-bottom: 25px;
   padding: 0;
   background-color: rgb(229, 184, 122);
@@ -80,14 +88,31 @@ section {
   margin-bottom: 25px;
 }
 
-.container-row {
-  flex-direction: column;
-  margin: 25px;
-  padding: 30px;
-  background-color: rgb(229, 184, 122);
-  display: flex;
-}
-
 .light-background {
   background-color: rgb(229, 184, 122);
+}
+
+.container-row,
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  padding: 0;
+}
+
+.container-row-content {
+  background-color: rgb(229, 184, 122);
+  flex-direction: column;
+  margin: 10%;
+  margin-top: 20px;
+  padding: 25px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  outline-style: solid;
+  padding: 10px;
 }
