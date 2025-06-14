@@ -1,10 +1,29 @@
-User Stories:
-As a user I would go to this website to see exclusive content from a favorite influincer.
-
-I want to feel like I am gaining insight into the wprld of the influincer I follow.
-
-So that I can choose the content that aligns with my interests and values, I want to see images, videos, and content that is presented in a visually appealing and engaging manner.
-
-
-
 The Project-01.fig Is the framework used that encompasses all three pages of HTML reflected in the design. I used Figma to design this framework.
+
+• Your name:
+
+    Austin Mullins
+
+• Overview/description of the project:
+
+    I coordinated with my wife on this project and she agreed to allowing me to use the content from her platforms. She pointed me in the direction of the design while I was working on the framework in Figma. I wanted to create a simple, clean, and user-friendly website for my wife's content to be viewed by her audience that pays a monthly fee/ subscription model.
+
+• Details on how to use it or what functionality is offered:
+
+    This website offers a simple overview of her recently posted content as of current. The idea after learning JavaSript would be to add interactibility between subscribers and make the website editable by the host/ my wife. This would allow content to be delivered in a more streamlined manner making it easier for her to deliver exclusive content to her paying audience.
+
+• Technologies Used ( .html , .css ):
+
+    HTML and CSS were used with imported JS from BootStrap. This is what has been learned so I tried to utilize every element in the design.
+
+• Any challenges or obstacles you faced during the process:
+
+    I faced many challanges which forced me to seek information on flexboxes and all the diffrent ways to manipluate elements in CSS. I also had to learn about Bootstrap and how to use it effectively. I learned how to make an element stay and overlap with other elements on the page. I learned how to use formspree.
+
+• Ideas for future improvement (minimum of 3):
+
+    Once learning JavaScript and being able to make the website more interactive, I would like to:
+        -Allow users to subscribe and receive exclusive content.
+        -Allow the host of the website to add/ remove/ and edit content seemlessly.
+        -Allow users to comment and like the content as well as interact with each other.
+        -I would also like to make it to where the subscriber can choose darker themes or lighter themes along with creating their own avatar that is displayed when commenting.
