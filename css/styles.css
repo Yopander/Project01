@@ -6,6 +6,23 @@ body {
   background-color: rgb(165, 133, 88);
 }
 
+.navbar {
+  background-color: rgb(229, 184, 122);
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.offcanvas {
+  background-color: rgb(165, 133, 88);
+  outline: black solid 2px;
+  border-radius: 10px;
+}
+
+.offcanvas-title {
+  text-decoration: underline;
+}
+
 .reenie-beanie-regular {
   font-family: "Reenie Beanie", cursive;
   font-weight: 400;
@@ -14,7 +31,7 @@ body {
 }
 
 h1 {
-  text-shadow: 10px 10px 5px black;
+  text-shadow: 10px 10px 500px black;
 }
 
 .container {
