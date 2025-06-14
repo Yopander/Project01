@@ -70,6 +70,7 @@ h1 {
   background-color: rgb(229, 184, 122);
   display: flex;
   justify-content: center;
+  gap: 20px;
   align-content: center;
   margin-left: 25%;
   margin-right: 25%;
