@@ -21,7 +21,7 @@ body {
 }
 
 .offcanvas {
-  background-color: rgb(165, 133, 88);
+  background-color: rgb(229, 184, 122);
   outline: black solid 2px;
   border-radius: 10px;
 }
@@ -37,7 +37,8 @@ body {
   font-size: x-large;
 }
 
-h1 {
+h1,
+.container-name {
   text-shadow: 10px 10px 500px black;
 }
 
@@ -51,6 +52,7 @@ form {
   background-color: rgb(229, 184, 122);
   border-radius: 10%;
   margin-bottom: 25px;
+  box-shadow: 5px 5px 10px black;
 }
 
 .mb-3 {
@@ -66,6 +68,10 @@ form {
   margin-top: 20px;
 }
 
+button {
+  box-shadow: 5px 5px 2px black;
+}
+
 .container {
   margin: 0, auto;
   padding: 0;
@@ -73,6 +79,25 @@ form {
   display: flex;
   justify-content: center;
   align-content: center;
+}
+
+h3 {
+  text-shadow: 10px 10px 500px black;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-inner {
+  margin-top: 25px;
+  margin-left: 33%;
+  margin-right: 33%;
+  margin-bottom: 25px;
+  align-content: center;
+}
+
+.carousel-item {
+  width: 33%;
+  height: auto;
 }
 
 .container-name {
@@ -131,6 +156,7 @@ section {
   background-color: rgb(229, 184, 122);
   flex-direction: column;
   margin: 10%;
+  margin-bottom: 25px;
   margin-top: 20px;
   padding: 25px;
 }
