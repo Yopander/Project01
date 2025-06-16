@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Home Page</title>
+  </head>
+  <!--Font used for the entire website-->
+  <body class="reenie-beanie-regular">
+    <!-- Navigation Bar -->
+    <nav class="navbar fixed-top">
+      <div class="navbar">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <strong>Navigation Menu</strong>
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./bio.html">Bio</a>
+              </li>
+              <!-- <li class="nav-item">
+                  <a class="nav-link" href="#">Translation</a>
+                </li> (Need to make a translation option.)-->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--First title/ name of content creator-->
+    <div class="container-name">
+      <h1>Silja Makinen</h1>
+    </div>
+    <!--Second title/ content creator's description-->
+    <div class="container-description">
+      <a href="https://www.instagram.com/siljacecilia/?hl=en" target="_blank">
+        <img src="./images/ig-logo.jpg" alt="IG Logo" height="35" width="35" />
+      </a>
+      <h3>Content Creator</h3>
+      <a
+        href="https://www.youtube.com/@siljacecilia-elamaatexasissa"
+        target="_blank"
+      >
+        <img src="./images/yt-logo.jpg" alt="YT Logo" height="35" width="35" />
+      </a>
+    </div>
+    <!--Profile picture-->
+    <div class="container-row">
+      <img src="./profile-logo/profile.jpg" alt="Silja's Logo" class="logo" />
+    </div>
+    <!--Latest video from the content creator's YouTube channel-->
+    <div class="container-row-content">
+      <section>
+        <iframe
+          width="912"
+          height="513"
+          src="https://www.youtube.com/embed/AiMqtDKfixk"
+          title="TOUKOKUINEN LAUANTAI: Suomalaista suklaata, siivousta, yllätys äidille, koirien kanssa hengausta 🤠"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum ab labore
+        et voluptatum similique a dolorum cupiditate, quibusdam repellendus amet
+        aspernatur non repudiandae expedita in!
+      </p>
+      <p>
+        Quaerat sunt laboriosam, aspernatur veritatis saepe perferendis
+        molestiae cupiditate culpa veniam voluptate voluptas quis ipsa officia
+        eius aut nobis consequuntur mollitia eligendi quod assumenda quae!
+      </p>
+      <p>
+        Animi sit quis quaerat, voluptatem autem enim tempore quas, porro
+        suscipit cumque quam architecto aut, qui accusamus voluptate iste dicta
+        repellendus iusto doloremque dolore recusandae.
+      </p>
+      <p>
+        Sed exercitationem consequatur totam officia necessitatibus deleniti a
+        voluptatum, est doloremque ad, commodi rerum tenetur animi! Quasi maxime
+        obcaecati eligendi molestias, aspernatur veritatis cupiditate
+        perspiciatis!
+      </p>
+    </div>
+    <footer>
+      <a href="https://www.instagram.com/siljacecilia/?hl=en" target="_blank">
+        <img src="./images/ig-logo.jpg" alt="IG Logo" height="35" width="35" />
+      </a>
+      <img
+        src="./images/net-logo.jpg"
+        alt="Net Logo"
+        height="35"
+        width="35"
+        class="light-background"
+      />
+      <a
+        href="https://www.youtube.com/@siljacecilia-elamaatexasissa"
+        target="_blank"
+      >
+        <img src="./images/yt-logo.jpg" alt="YT Logo" height="35" width="35" />
+      </a>
+    </footer>
+    Copyright &copy; 2025 Austin C. Mullins. All rights reserved.
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
